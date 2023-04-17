@@ -30,7 +30,7 @@ const Playlist = (props) => {
 
           <button
           onClick={props.onSave}
-          className="bg-main1 text-sub2 py-2 px-4 rounded shadow mt-4"
+          className="bg-main1 hover:bg-sub1 transition-colors duration-250 text-sub2 py-2 px-4 rounded shadow mt-4"
           >
           Save to my Spotify
           </button>
