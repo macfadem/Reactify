@@ -1,3 +1,6 @@
-* {
-    box-sizing: border-box;
+.TrackList {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }

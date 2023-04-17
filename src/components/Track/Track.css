@@ -1,0 +1,26 @@
+.Track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Track-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+}
+
+.Track-information h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.Track-information p {
+    font-size: 1em;
+    font-weight: 400;
+    margin: .5em 0 0 0;
+}
