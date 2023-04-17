@@ -9,11 +9,14 @@ module.exports = {
         bg: {
           DEFAULT: '#2C3E50',
         },
+        bg2: {
+          DEFAULT: '#f5e6ff',
+        },
         main1: {
           DEFAULT: '#E67E22',
         },
         main2: {
-          DEFAULT: '#8E44AD',
+          DEFAULT: '#8500DD',
         },
         sub1: {
           DEFAULT: '#27AE60',
