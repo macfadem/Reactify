@@ -1,23 +1,44 @@
-html, body, #root {
+body,
+html,
+#root {
   height: 100%;
-  background-color: #000000;
+  background-color: #045071;
+}
+
+html {
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 400;
+  padding: .77rem 0;
   text-align: center;
-  padding: 1rem 0;
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fd6084;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  padding: 1rem;
-  font-family: 'Roboto', sans-serif;
+  padding: 0 17% 10% 17%;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #fd6084;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
 }
