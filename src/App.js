@@ -47,7 +47,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-bg2 text-main1">
       <a.h1
-        className="py-4 text-center text-4xl font-bold text-main2 font-heading"
+        className="pt-10 text-center text-4xl font-bold text-main2 font-heading"
         style={useSpring({ opacity: 1, from: { opacity: 0 } })}>
         <img src={logo} alt="Reactify" className="inline-block h-16 mr-2" />
         Reactify
