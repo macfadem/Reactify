@@ -1,5 +1,7 @@
 import './App.css';
 import Playlist from './components/Playlist/Playlist';
+import SearchBar from './components/SearchBar/SearchBar';
+import SearchResults from './components/SearchResults/SearchResults';
 import Track from './components/Track/Track';
 import TrackList from './components/TrackList/TrackList';
 
@@ -18,9 +20,17 @@ const example = [
 
 
 function App() {
+  const searchResults = example;
   return (
-    <div className="App">
-      <Playlist playlistTracks={example} />
+    <div>
+      <h1>
+        Reactify
+      </h1>
+      <div className="App">
+        <SearchBar/>
+        <SearchResults searchResults={searchResults}/>
+        <Playlist playlistTracks={example} />
+      </div>
     </div>
   );
 }
