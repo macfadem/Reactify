@@ -3,7 +3,7 @@ import Track from "../Track/Track";
 
 const TrackList = (props) => {
   return (
-    <div className="block m-0 p-0 list-none">
+    <div className="block m-0 p-0 list-none w-full">
       {props.tracks.map((track) => {
         return (
           <Track
