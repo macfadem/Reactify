@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Track from './components/Track/Track';
+import TrackList from './components/TrackList/TrackList';
+
+const example = [
+  {name: 'name1', artist: 'artist1', album: 'album1'},
+  {name: 'name2', artist: 'artist2', album: 'album2'},
+  {name: 'name3', artist: 'artist3', album: 'album3'},
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TrackList tracks={example}/>
     </div>
   );
 }
