@@ -1,5 +1,5 @@
 const clientId = '4df554e9c0c148b38d4df8df19e1d634'; // Insert client ID here.
-const redirectUri = 'https://mcfadem.netlify.app/callback'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'https://mcfadem.netlify.app'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
