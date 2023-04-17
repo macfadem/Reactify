@@ -25,7 +25,7 @@ REACT_APP_SPOTIFY_CLIENT_ID=your_client_id REACT_APP_SPOTIFY_REDIRECT_URI=your_r
 
 ## Demo
 
-You can see a live demo of the app here: https://react-spotify-playlist-creator.netlify.app/
+You can see a live demo of the app here: https://mcfadem.netlify.app
 
 ## License
 
