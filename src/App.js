@@ -1,24 +1,26 @@
 import './App.css';
+import Playlist from './components/Playlist/Playlist';
 import Track from './components/Track/Track';
 import TrackList from './components/TrackList/TrackList';
 
 const example = [
-  {name: 'name1', artist: 'artist1', album: 'album1'},
-  {name: 'name2', artist: 'artist2', album: 'album2'},
-  {name: 'name3', artist: 'artist3', album: 'album3'},
-  {name: 'name4', artist: 'artist4', album: 'album4'},
-  {name: 'name5', artist: 'artist5', album: 'album5'},
-  {name: 'name6', artist: 'artist6', album: 'album6'},
-  {name: 'name7', artist: 'artist7', album: 'album7'},
-  {name: 'name8', artist: 'artist8', album: 'album8'},
-  {name: 'name9', artist: 'artist9', album: 'album9'},
-  {name: 'name10', artist: 'artist10', album: 'album10'}
+  {name: 'Hard Times', artist: 'Paramore', album: 'After Laughter'},
+  {name: 'Numb', artist: 'Linkin Park', album: 'Meteora'},
+  {name: 'Dákiti', artist: 'Bad Bunny', album: 'El Último Tour Del Mundo'},
+  {name: '3 Nights', artist: 'Dominic Fike', album: 'Don\'t Forget About Me, Demos'},
+  {name: 'In The End', artist: 'Linkin Park', album: 'Hybrid Theory'},
+  {name: 'Mía', artist: 'Bad Bunny', album: 'X 100PRE'},
+  {name: 'Ain\'t It Fun', artist: 'Paramore', album: 'Paramore'},
+  {name: 'Why', artist: 'Dominic Fike', album: 'What Could Possibly Go Wrong'},
+  {name: 'La Canción', artist: 'Bad Bunny', album: 'YHLQMDLG'},
+  {name: 'Misery Business', artist: 'Paramore', album: 'RIOT!'}
 ];
+
 
 function App() {
   return (
     <div className="App">
-      <TrackList tracks={example}/>
+      <Playlist playlistTracks={example} />
     </div>
   );
 }
